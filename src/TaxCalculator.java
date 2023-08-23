@@ -37,11 +37,12 @@ public class TaxCalculator {
         //Calculate tax based on income
         double tax = calculateTax(income);
 
-        //Display calculated tac amount
+        //Display calculated tax amount
         System.out.println("Your tax amount is: " + tax);
 
     }
 
+    //Method with tax brackets
     public static double calculateTax(double income) {
         double tax;
 
